@@ -33,7 +33,7 @@ const Banner = ({
         {desc2}
       </Text>
       <Button fontSize="xl">
-        <Link href="linkName">{buttonText}</Link>
+        <Link href={linkName}>{buttonText}</Link>
       </Button>
     </Box>
   </Flex>
